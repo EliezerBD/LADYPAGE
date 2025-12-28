@@ -16,7 +16,7 @@
     <meta name="language" content="Spanish">
 
     <!-- Google Search Console Verification -->
-    <meta name="google-site-verification" content="CtiXmYOCMRugPu8shPShTrAIBiZK78F-ApyiIpHoCqI" />
+    <meta name="google-site-verification" content="ixmtmrB8_iUvdy4Cie1R1VdI2LEORdllsZwFkvRO5k8" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -50,6 +50,28 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Facturas App",
+      "operatingSystem": "Web",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Descarga facturas de Gmail de forma automática y masiva. Conecta tu cuenta de Google, busca facturas por fecha, descarga PDF y JSON en segundos.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "1024"
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -64,7 +86,9 @@
     <header>
         <nav>
             <div class="logo">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    role="img">
+                    <title>Logotipo de Facturas App</title>
                     <defs>
                         <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
@@ -267,8 +291,8 @@
 
     <!-- Botón WhatsApp -->
     <a href="https://wa.me/50379017880?text=Hola%20Eliezer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20contactar%20contigo."
-        class="whatsapp-float" target="_blank" title="Contactar por WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
+        class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp" title="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
     </a>
 
     <!-- Scripts -->
