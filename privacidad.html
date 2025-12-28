@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Facturas App</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        .legal-content {
+            padding: 12rem 2rem 6rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .legal-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 32px;
+            padding: 4rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin: 2.5rem 0 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        p {
+            color: hsl(0, 0%, 85%);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        ul li {
+            color: hsl(0, 0%, 85%);
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-light);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .back-btn:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#logoGradient)"
+                        d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+                <span>Facturas App</span>
+            </div>
+            <a href="index.html" class="cta-btn">Volver al Inicio</a>
+        </nav>
+    </header>
+
+    <main class="legal-content">
+        <a href="index.html" class="back-btn">← Regresar</a>
+
+        <div class="legal-card reveal active">
+            <h1
+                style="font-family: 'Poppins', sans-serif; font-size: 3rem; background: var(--gradient-1); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem;">
+                Política de Privacidad</h1>
+            <p style="opacity: 0.6; font-size: 0.9rem;">Última actualización: 28 de diciembre de 2025</p>
+
+            <p>En <strong>Facturas App</strong>, una de nuestras principales prioridades es la privacidad de nuestros
+                visitantes. Este documento contiene los tipos de información que recopilamos y cómo la utilizamos.</p>
+
+            <h2>1. Información que recopilamos</h2>
+            <p>Cuando utilizas nuestra aplicación a través de Google OAuth, solicitamos acceso a tu nombre y dirección
+                de correo electrónico. Esto es necesario para identificarte y permitirte acceder a tus funciones
+                personalizadas.</p>
+
+            <h2>2. Cómo utilizamos tu información</h2>
+            <p>Utilizamos la información recopilada únicamente para:</p>
+            <ul>
+                <li>Proveer y mantener el funcionamiento de la aplicación.</li>
+                <li>Personalizar tu experiencia de búsqueda de facturas.</li>
+                <li>Garantizar que solo tú puedas acceder a tus documentos descargados.</li>
+            </ul>
+
+            <h2>3. Protección de Datos</h2>
+            <p><strong>Seguridad ante todo:</strong> No compartimos, vendemos ni alquilamos tu información personal a
+                terceros. Tus datos de Google se utilizan exclusivamente para la autenticación y el procesamiento
+                técnico de las facturas en tiempo real.</p>
+            <p>No almacenamos copias de tus correos electrónicos ni de tus facturas en nuestros servidores permanentes;
+                todo sucede de forma segura entre tu navegador y las APIs de Google.</p>
+
+            <h2>4. Contacto</h2>
+            <p>Si tienes cualquier duda sobre nuestra política de privacidad o el manejo de tus datos, no dudes en
+                escribirnos a:</p>
+            <p style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 12px; display: inline-block;">
+                <a href="mailto:beltraneliezer133@gmail.com"
+                    style="color: var(--primary); text-decoration: none; font-weight: 600;">beltraneliezer133@gmail.com</a>
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content border-t-0">
+            <p class="copyright">© 2025 Facturas App. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/50379017880?text=Hola%20Eliezer,%20vi%20tu%20portfolio%20y%20me%20gustaría%20contactar%20contigo."
+        class="whatsapp-float" target="_blank" title="Contactar por WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
