@@ -7,13 +7,13 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://facturas-app-v2.onrender.com/privacidad.html</loc>
+    <loc>https://facturas-app-v2.onrender.com/pages/privacidad.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://facturas-app-v2.onrender.com/terminos.html</loc>
+    <loc>https://facturas-app-v2.onrender.com/pages/terminos.html</loc>
     <lastmod>2025-12-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>

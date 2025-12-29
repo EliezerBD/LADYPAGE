@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Términos del Servicio - Facturas App</title>
+    <title>Política de Privacidad - Facturas App</title>
     <meta name="description"
-        content="Términos y condiciones de uso de Facturas App. Conoce las reglas y responsabilidades al usar nuestro servicio de descarga de facturas.">
+        content="Política de privacidad de Facturas App. Conoce cómo protegemos tus datos y qué información recopilamos de Google OAuth.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
         rel="stylesheet">
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,6 +47,25 @@
             color: hsl(0, 0%, 85%);
             margin-bottom: 1.5rem;
             font-size: 1.1rem;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        ul li {
+            color: hsl(0, 0%, 85%);
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
         }
 
         .back-btn {
@@ -90,43 +109,45 @@
                 </svg>
                 <span>Facturas App</span>
             </div>
-            <a href="index.html" class="cta-btn">Volver al Inicio</a>
+            <a href="../index.html" class="cta-btn">Volver al Inicio</a>
         </nav>
     </header>
 
     <main class="legal-content">
-        <a href="index.html" class="back-btn">← Regresar</a>
+        <a href="../index.html" class="back-btn">← Regresar</a>
 
         <div class="legal-card reveal active">
             <h1
                 style="font-family: 'Poppins', sans-serif; font-size: 3rem; background: var(--gradient-1); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem;">
-                Términos del Servicio</h1>
-            <p style="opacity: 0.6; font-size: 0.9rem;">Por favor, lee estos términos cuidadosamente antes de usar
-                nuestra aplicación.</p>
+                Política de Privacidad</h1>
+            <p style="opacity: 0.6; font-size: 0.9rem;">Última actualización: 28 de diciembre de 2025</p>
 
-            <p>Al acceder a <strong>Facturas App</strong>, usted acepta cumplir con estos términos de servicio y todas
-                las leyes y regulaciones aplicables en su jurisdicción.</p>
+            <p>En <strong>Facturas App</strong>, una de nuestras principales prioridades es la privacidad de nuestros
+                visitantes. Este documento contiene los tipos de información que recopilamos y cómo la utilizamos.</p>
 
-            <h2>1. Uso de la Licencia</h2>
-            <p>Se otorga permiso para usar las funciones de la aplicación de manera personal o comercial de forma
-                gratuita. Este es el otorgamiento de una licencia de uso de software, no una transferencia de propiedad
-                intelectual.</p>
+            <h2>1. Información que recopilamos</h2>
+            <p>Cuando utilizas nuestra aplicación a través de Google OAuth, solicitamos acceso a tu nombre y dirección
+                de correo electrónico. Esto es necesario para identificarte y permitirte acceder a tus funciones
+                personalizadas.</p>
 
-            <h2>2. Responsabilidad</h2>
-            <p>Facturas App se proporciona "tal cual". En ningún caso seremos responsables de cualquier daño surgido por
-                el uso o la imposibilidad de uso de las herramientas integradas. La precisión de los archivos PDF
-                descargados depende directamente de los emisores originales en Gmail.</p>
+            <h2>2. Cómo utilizamos tu información</h2>
+            <p>Utilizamos la información recopilada únicamente para:</p>
+            <ul>
+                <li>Proveer y mantener el funcionamiento de la aplicación.</li>
+                <li>Personalizar tu experiencia de búsqueda de facturas.</li>
+                <li>Garantizar que solo tú puedas acceder a tus documentos descargados.</li>
+            </ul>
 
-            <h2>3. Revocación de acceso</h2>
-            <p>Nos reservamos el derecho de interrumpir o suspender el acceso a la aplicación inmediatamente, sin previo
-                aviso, por cualquier motivo que consideremos necesario para garantizar la seguridad del servicio.</p>
+            <h2>3. Protección de Datos</h2>
+            <p><strong>Seguridad ante todo:</strong> No compartimos, vendemos ni alquilamos tu información personal a
+                terceros. Tus datos de Google se utilizan exclusivamente para la autenticación y el procesamiento
+                técnico de las facturas en tiempo real.</p>
+            <p>No almacenamos copias de tus correos electrónicos ni de tus facturas en nuestros servidores permanentes;
+                todo sucede de forma segura entre tu navegador y las APIs de Google.</p>
 
-            <h2>4. Modificaciones</h2>
-            <p>Podemos revisar estos términos de servicio en cualquier momento sin previo aviso. Al usar esta
-                aplicación, usted acepta estar sujeto a la versión actual de estos términos.</p>
-
-            <h2>5. Contacto</h2>
-            <p>Para cualquier duda o soporte técnico, por favor contáctanos:</p>
+            <h2>4. Contacto</h2>
+            <p>Si tienes cualquier duda sobre nuestra política de privacidad o el manejo de tus datos, no dudes en
+                escribirnos a:</p>
             <p style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 12px; display: inline-block;">
                 <a href="mailto:beltraneliezer133@gmail.com"
                     style="color: var(--primary); text-decoration: none; font-weight: 600;">beltraneliezer133@gmail.com</a>
@@ -146,7 +167,7 @@
         <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
     </a>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
